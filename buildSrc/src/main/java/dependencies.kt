@@ -45,6 +45,10 @@ object Versions {
     const val mockk = "1.9.3"
     const val robolectric = "4.3.1"
     const val testCore = "1.2.0"
+
+    //Annotation processing libraries
+    const val kotlinPoet = "1.6.0"
+    const val autoService = "1.0-rc7"
 }
 
 object AnnotationProcessors {
@@ -54,6 +58,8 @@ object AnnotationProcessors {
     const val lifecycle = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
     const val moshi = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi}"
     const val room = "androidx.room:room-compiler:${Versions.room}"
+    const val kotlinPoet = "com.squareup:kotlinpoet:${Versions.kotlinPoet}"
+    const val autoService = "com.google.auto.service:auto-service:${Versions.autoService}"
 }
 
 object Libraries {

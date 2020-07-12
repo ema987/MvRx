@@ -1,6 +1,8 @@
 // Libraries
 include ":mvrx"
 include ":testing"
+include ':stateresetter-annotations'
+include ':stateresetter-processor'
 
 // Samples
 include ":counter"
@@ -8,3 +10,4 @@ include ":dogs"
 include ":hellodagger"
 include ":sample"
 include ":todomvrx"
+include ':stateresetter-sample'

@@ -1,0 +1,17 @@
+import org.gradle.internal.jvm.Jvm
+
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply plugin: "kotlin-kapt"
+
+dependencies {
+    implementation project(':stateresetter-annotations')
+    implementation AnnotationProcessors.kotlinPoet
+    implementation AnnotationProcessors.autoService
+    kapt AnnotationProcessors.autoService
+
+    compileOnly files(Jvm.current().getToolsJar())
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
