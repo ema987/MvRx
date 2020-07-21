@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">stateresetter-sample</string>
+    <string name="random_values_button">Random values</string>
+    <string name="reset_title_button">Reset title</string>
+    <string name="reset_description_button">Reset description 9 and crash</string>
+    <string name="reset_all_button">Reset all annotated</string>
+</resources>
